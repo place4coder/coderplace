@@ -10,6 +10,10 @@
     "lint": "next lint --max-warnings 0",
     "check-types": "tsc --noEmit"
   },
+  "lint-staged": {
+    "**/*.{js,jsx,ts,tsx,json,css,md}": "prettier --write",
+    "**/*.{ts,tsx}": "eslint --fix --max-warnings 0"
+  },
   "dependencies": {
     "@coderplace/ui": "workspace:*",
     "next": "^15.3.2",

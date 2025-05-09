@@ -6,6 +6,10 @@
     "lint": "eslint . --max-warnings 0",
     "check-types": "tsc --noEmit"
   },
+  "lint-staged": {
+    "**/*.{js,jsx,ts,tsx,json,css,md}": "prettier --write",
+    "**/*.{ts,tsx}": "eslint --fix --max-warnings 0"
+  },
   "dependencies": {
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
