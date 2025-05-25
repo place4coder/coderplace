@@ -6,6 +6,13 @@
     "point": {
       "lon": 127.05448250649638,
       "lat": 37.54418230541699
-    }
+    },
+    "review": [
+      {
+        "author": "ohprettyhak",
+        "rating": 5,
+        "comment": "Great coffee and atmosphere!"
+      }
+    ]
   }
 ]
